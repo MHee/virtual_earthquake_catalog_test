@@ -1,0 +1,9 @@
+name: onc_eew_test
+channels:
+  - conda-forge
+  - defaults
+ 
+dependencies:
+  - python
+  - requests
+  - folium   # For map in notebook 
