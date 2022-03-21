@@ -1,0 +1,29 @@
+{
+  "organizationDetections": [
+    {
+      "earthquakeDetailId": 3,
+      "eventId": "20211127.1216002",
+      "eventUrl": "https://www.earthquakescanada.nrcan.gc.ca/recent/2021/20211127.1216/index-en.php",
+      "latitude": 49.9812,
+      "longitude": -130.2038,
+      "magnitude": 4.04,
+      "organization": "NRCAN",
+      "originTime": "2021-11-27T12:16:56.000Z"
+    }
+  ],
+  "reprocessedEarthquake": false,
+  "siteDetections": [],
+  "earthquake": [
+    {
+      "earthquakeDetailId": 3,
+      "earthquakeId": 3,
+      "eventId": "20211127.1216002",
+      "latitude": 49.9812,
+      "longitude": -130.2038,
+      "magnitude": 4.04,
+      "organizationId": 29,
+      "originTime": "2021-11-27T12:16:56.000Z"
+    }
+  ],
+  "oncDetections": []
+}

@@ -1,0 +1,321 @@
+{
+  "organizationDetections": [
+    {
+      "earthquakeDetailId": 18,
+      "eventId": "ED17:4.20-126.5249.56",
+      "latitude": 49.56,
+      "longitude": -126.52,
+      "magnitude": 4.2,
+      "organization": "Ocean Networks Canada Society",
+      "originTime": "2022-03-18T17:31:14.402Z"
+    }
+  ],
+  "reprocessedEarthquake": false,
+  "siteDetections": [
+    {
+      "associated": true,
+      "distanceToEpi": 62.987,
+      "earthquakeSiteId": 280,
+      "latitude": 50.006,
+      "location": "VICP",
+      "longitude": -126.109,
+      "pWaveArrival": "2022-03-18T17:31:22.900Z"
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 71.438,
+      "earthquakeSiteId": 282,
+      "latitude": 50.161,
+      "location": "WOSB",
+      "longitude": -126.57,
+      "pWaveArrival": "2022-03-18T17:31:23.960Z",
+      "sWaveArrival": "2022-03-18T17:31:24.000Z"
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 46.052,
+      "earthquakeSiteId": 279,
+      "latitude": 49.893,
+      "location": "TAHB",
+      "longitude": -126.677,
+      "pWaveArrival": "2022-03-18T17:31:20.420Z",
+      "sWaveArrival": "2022-03-18T17:31:21.460Z",
+      "seismicPd": "8.265E-7",
+      "seismicPdMag": 2.663,
+      "tau": 0.57,
+      "tauMag": 3.592
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 58.951,
+      "earthquakeSiteId": 278,
+      "latitude": 49.99,
+      "location": "ZEBA.W3",
+      "longitude": -126.851,
+      "pWaveArrival": "2022-03-18T17:31:22.190Z",
+      "sWaveArrival": "2022-03-18T17:31:23.440Z",
+      "seismicPd": "1.254E-6",
+      "seismicPdMag": 3.034,
+      "tau": 0.703,
+      "tauMag": 4.201
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 39.23,
+      "earthquakeSiteId": 281,
+      "latitude": 49.348,
+      "location": "SHPB",
+      "longitude": -126.26,
+      "pWaveArrival": "2022-03-18T17:31:19.600Z",
+      "sWaveArrival": "2022-03-18T17:31:24.780Z",
+      "seismicPd": "1.011E-6",
+      "seismicPdMag": 2.675,
+      "tau": 1.507,
+      "tauMag": 6.405
+    },
+    {
+      "associated": false,
+      "distanceToEpi": 144.74,
+      "earthquakeSiteId": 276,
+      "latitude": 48.315,
+      "location": "BACME.W1",
+      "longitude": -126.058,
+      "pWaveArrival": "2022-03-18T17:28:37.460Z",
+      "seismicPd": "9.863E-8",
+      "seismicPdMag": 2.214,
+      "tau": 0.913,
+      "tauMag": 4.956
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 77.557,
+      "earthquakeSiteId": 283,
+      "latitude": 49.9,
+      "location": "STRA",
+      "longitude": -125.647,
+      "pWaveArrival": "2022-03-18T17:31:24.680Z"
+    }
+  ],
+  "earthquake": [
+    {
+      "earthquakeDetailId": 18,
+      "earthquakeId": 17,
+      "eventId": "ED17:4.20-126.5249.56",
+      "latitude": 49.56,
+      "longitude": -126.52,
+      "magnitude": 4.2,
+      "organizationId": 134,
+      "originTime": "2022-03-18T17:31:14.402Z"
+    }
+  ],
+  "oncDetections": [
+    {
+      "capId": "ED17:4.20-126.5249.56",
+      "dgsLatitude": 49.575,
+      "dgsLongitude": -126.525,
+      "earthquakeDetailId": 18,
+      "eventDetectedId": 13348459,
+      "hostname": "dreewshore1.dr.neptune",
+      "latitude": 49.56,
+      "llsLatitude": 49.563,
+      "llsLongitude": -126.52,
+      "longitude": -126.52,
+      "magnitude": 4.2,
+      "oncEarthquakeDetailId": 40,
+      "originTime": "2022-03-18T17:31:14.402Z",
+      "pWaveVelocity": 7500.0,
+      "reportedTime": "2022-03-18T17:31:28.241Z",
+      "seismicPD": 2.678,
+      "sites": [
+        {
+          "associated": true,
+          "distanceToEpi": 46.052,
+          "earthquakeSiteId": 279,
+          "latitude": 49.893,
+          "location": "TAHB",
+          "longitude": -126.677,
+          "pWaveArrival": "2022-03-18T17:31:20.420Z",
+          "sWaveArrival": "2022-03-18T17:31:21.460Z",
+          "seismicPd": "8.265E-7",
+          "seismicPdMag": 2.663,
+          "tau": 0.57,
+          "tauMag": 3.592
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 58.951,
+          "earthquakeSiteId": 278,
+          "latitude": 49.99,
+          "location": "ZEBA.W3",
+          "longitude": -126.851,
+          "pWaveArrival": "2022-03-18T17:31:22.190Z",
+          "sWaveArrival": "2022-03-18T17:31:23.440Z",
+          "seismicPd": "1.254E-6",
+          "seismicPdMag": 3.034,
+          "tau": 0.703,
+          "tauMag": 4.201
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 62.987,
+          "earthquakeSiteId": 280,
+          "latitude": 50.006,
+          "location": "VICP",
+          "longitude": -126.109,
+          "pWaveArrival": "2022-03-18T17:31:22.900Z"
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 71.438,
+          "earthquakeSiteId": 282,
+          "latitude": 50.161,
+          "location": "WOSB",
+          "longitude": -126.57,
+          "pWaveArrival": "2022-03-18T17:31:23.960Z",
+          "sWaveArrival": "2022-03-18T17:31:24.000Z"
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 39.23,
+          "earthquakeSiteId": 281,
+          "latitude": 49.348,
+          "location": "SHPB",
+          "longitude": -126.26,
+          "pWaveArrival": "2022-03-18T17:31:19.600Z",
+          "sWaveArrival": "2022-03-18T17:31:24.780Z",
+          "seismicPd": "1.011E-6",
+          "seismicPdMag": 2.675,
+          "tau": 1.507,
+          "tauMag": 6.405
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 77.557,
+          "earthquakeSiteId": 283,
+          "latitude": 49.9,
+          "location": "STRA",
+          "longitude": -125.647,
+          "pWaveArrival": "2022-03-18T17:31:24.680Z"
+        }
+      ],
+      "tau": 4.201
+    },
+    {
+      "capId": "ED17:4.20-126.5249.56",
+      "dgsLatitude": 49.575,
+      "dgsLongitude": -126.525,
+      "earthquakeDetailId": 18,
+      "eventDetectedId": 13348439,
+      "hostname": "eewshore1.dc.onc",
+      "latitude": 49.56,
+      "llsLatitude": 49.563,
+      "llsLongitude": -126.52,
+      "longitude": -126.52,
+      "magnitude": 4.2,
+      "oncEarthquakeDetailId": 39,
+      "originTime": "2022-03-18T17:31:14.402Z",
+      "pWaveVelocity": 7500.0,
+      "reportedTime": "2022-03-18T17:31:28.239Z",
+      "seismicPD": 2.678,
+      "sites": [
+        {
+          "associated": true,
+          "distanceToEpi": 58.951,
+          "earthquakeSiteId": 270,
+          "latitude": 49.99,
+          "location": "ZEBA.W3",
+          "longitude": -126.851,
+          "pWaveArrival": "2022-03-18T17:31:22.190Z",
+          "sWaveArrival": "2022-03-18T17:31:23.440Z",
+          "seismicPd": "1.254E-6",
+          "seismicPdMag": 3.034,
+          "tau": 0.703,
+          "tauMag": 4.201
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 62.987,
+          "earthquakeSiteId": 272,
+          "latitude": 50.006,
+          "location": "VICP",
+          "longitude": -126.109,
+          "pWaveArrival": "2022-03-18T17:31:22.900Z"
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 71.438,
+          "earthquakeSiteId": 274,
+          "latitude": 50.161,
+          "location": "WOSB",
+          "longitude": -126.57,
+          "pWaveArrival": "2022-03-18T17:31:23.960Z",
+          "sWaveArrival": "2022-03-18T17:31:24.000Z"
+        },
+        {
+          "associated": false,
+          "distanceToEpi": 144.74,
+          "earthquakeSiteId": 276,
+          "latitude": 48.315,
+          "location": "BACME.W1",
+          "longitude": -126.058,
+          "pWaveArrival": "2022-03-18T17:28:37.460Z",
+          "seismicPd": "9.863E-8",
+          "seismicPdMag": 2.214,
+          "tau": 0.913,
+          "tauMag": 4.956
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 77.557,
+          "earthquakeSiteId": 275,
+          "latitude": 49.9,
+          "location": "STRA",
+          "longitude": -125.647,
+          "pWaveArrival": "2022-03-18T17:31:24.680Z"
+        },
+        {
+          "associated": false,
+          "distanceToEpi": 144.74,
+          "earthquakeSiteId": 277,
+          "latitude": 48.315,
+          "location": "BACME.W1",
+          "longitude": -126.058,
+          "pWaveArrival": "2022-03-18T17:30:51.180Z",
+          "seismicPd": "7.547E-8",
+          "seismicPdMag": 2.071,
+          "tau": 0.7,
+          "tauMag": 4.187
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 46.052,
+          "earthquakeSiteId": 271,
+          "latitude": 49.893,
+          "location": "TAHB",
+          "longitude": -126.677,
+          "pWaveArrival": "2022-03-18T17:31:20.420Z",
+          "sWaveArrival": "2022-03-18T17:31:21.460Z",
+          "seismicPd": "8.265E-7",
+          "seismicPdMag": 2.663,
+          "tau": 0.57,
+          "tauMag": 3.592
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 39.23,
+          "earthquakeSiteId": 273,
+          "latitude": 49.348,
+          "location": "SHPB",
+          "longitude": -126.26,
+          "pWaveArrival": "2022-03-18T17:31:19.600Z",
+          "sWaveArrival": "2022-03-18T17:31:24.780Z",
+          "seismicPd": "1.011E-6",
+          "seismicPdMag": 2.675,
+          "tau": 1.507,
+          "tauMag": 6.405
+        }
+      ],
+      "tau": 4.201
+    }
+  ]
+}

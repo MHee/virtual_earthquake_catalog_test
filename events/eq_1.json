@@ -1,0 +1,223 @@
+{
+  "organizationDetections": [
+    {
+      "earthquakeDetailId": 1,
+      "eventId": "ED17:3.95-126.8846.28",
+      "latitude": 46.28,
+      "longitude": -126.88,
+      "magnitude": 3.95,
+      "organization": "Ocean Networks Canada Society",
+      "originTime": "2021-12-09T21:09:31.375Z"
+    }
+  ],
+  "reprocessedEarthquake": false,
+  "siteDetections": [
+    {
+      "associated": true,
+      "distanceToEpi": 313.962,
+      "earthquakeSiteId": 5,
+      "latitude": 48.835,
+      "location": "BAMF",
+      "longitude": -125.135,
+      "pWaveArrival": "2021-12-09T21:10:19.700Z",
+      "sWaveArrival": "2021-12-09T21:11:20.330Z",
+      "seismicPd": "4.693E-7",
+      "seismicPdMag": 3.512,
+      "tau": 0.704,
+      "tauMag": 4.204
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 350.968,
+      "earthquakeSiteId": 6,
+      "latitude": 48.82,
+      "location": "CLRS",
+      "longitude": -124.131,
+      "pWaveArrival": "2021-12-09T21:10:25.350Z",
+      "sWaveArrival": "2021-12-09T21:11:33.110Z"
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 348.35,
+      "earthquakeSiteId": 8,
+      "latitude": 48.39,
+      "location": "AL2H",
+      "longitude": -123.487,
+      "pWaveArrival": "2021-12-09T21:10:25.010Z",
+      "sWaveArrival": "2021-12-09T21:11:31.840Z",
+      "seismicPd": "2.249E-7",
+      "seismicPdMag": 3.181,
+      "tau": 0.644,
+      "tauMag": 3.945
+    },
+    {
+      "associated": true,
+      "distanceToEpi": 314.061,
+      "earthquakeSiteId": 7,
+      "latitude": 48.544,
+      "location": "PTRF",
+      "longitude": -124.413,
+      "pWaveArrival": "2021-12-09T21:10:19.790Z",
+      "seismicPd": "3.595E-7",
+      "seismicPdMag": 3.369,
+      "tau": 0.636,
+      "tauMag": 3.91
+    }
+  ],
+  "earthquake": [
+    {
+      "earthquakeDetailId": 1,
+      "earthquakeId": 1,
+      "eventId": "ED17:3.95-126.8846.28",
+      "latitude": 46.28,
+      "longitude": -126.88,
+      "magnitude": 3.95,
+      "organizationId": 134,
+      "originTime": "2021-12-09T21:09:31.375Z"
+    }
+  ],
+  "oncDetections": [
+    {
+      "capId": "ED17:3.95-126.8846.28",
+      "dgsLatitude": 46.275,
+      "dgsLongitude": -126.875,
+      "earthquakeDetailId": 1,
+      "eventDetectedId": 12736479,
+      "hostname": "eewshore1.dc.onc",
+      "latitude": 46.28,
+      "llsLatitude": 46.267,
+      "llsLongitude": -126.932,
+      "longitude": -126.88,
+      "magnitude": 3.95,
+      "oncEarthquakeDetailId": 2,
+      "originTime": "2021-12-09T21:09:31.375Z",
+      "pWaveVelocity": 6500.0,
+      "reportedTime": "2021-12-09T21:11:35.395Z",
+      "seismicPD": 3.37,
+      "sites": [
+        {
+          "associated": true,
+          "distanceToEpi": 313.962,
+          "earthquakeSiteId": 5,
+          "latitude": 48.835,
+          "location": "BAMF",
+          "longitude": -125.135,
+          "pWaveArrival": "2021-12-09T21:10:19.700Z",
+          "sWaveArrival": "2021-12-09T21:11:20.330Z",
+          "seismicPd": "4.693E-7",
+          "seismicPdMag": 3.512,
+          "tau": 0.704,
+          "tauMag": 4.204
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 350.968,
+          "earthquakeSiteId": 6,
+          "latitude": 48.82,
+          "location": "CLRS",
+          "longitude": -124.131,
+          "pWaveArrival": "2021-12-09T21:10:25.350Z",
+          "sWaveArrival": "2021-12-09T21:11:33.110Z"
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 314.061,
+          "earthquakeSiteId": 7,
+          "latitude": 48.544,
+          "location": "PTRF",
+          "longitude": -124.413,
+          "pWaveArrival": "2021-12-09T21:10:19.790Z",
+          "seismicPd": "3.595E-7",
+          "seismicPdMag": 3.369,
+          "tau": 0.636,
+          "tauMag": 3.91
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 348.35,
+          "earthquakeSiteId": 8,
+          "latitude": 48.39,
+          "location": "AL2H",
+          "longitude": -123.487,
+          "pWaveArrival": "2021-12-09T21:10:25.010Z",
+          "sWaveArrival": "2021-12-09T21:11:31.840Z",
+          "seismicPd": "2.249E-7",
+          "seismicPdMag": 3.181,
+          "tau": 0.644,
+          "tauMag": 3.945
+        }
+      ],
+      "tau": 3.945
+    },
+    {
+      "capId": "ED17:3.95-126.8846.28",
+      "dgsLatitude": 46.275,
+      "dgsLongitude": -126.875,
+      "earthquakeDetailId": 1,
+      "eventDetectedId": 12736459,
+      "hostname": "dreewshore1.dr.neptune",
+      "latitude": 46.28,
+      "llsLatitude": 46.267,
+      "llsLongitude": -126.932,
+      "longitude": -126.88,
+      "magnitude": 3.95,
+      "oncEarthquakeDetailId": 1,
+      "originTime": "2021-12-09T21:09:31.375Z",
+      "pWaveVelocity": 6500.0,
+      "reportedTime": "2021-12-09T21:10:30.148Z",
+      "seismicPD": 3.37,
+      "sites": [
+        {
+          "associated": true,
+          "distanceToEpi": 314.061,
+          "earthquakeSiteId": 1,
+          "latitude": 48.544,
+          "location": "PTRF",
+          "longitude": -124.413,
+          "pWaveArrival": "2021-12-09T21:10:19.790Z",
+          "seismicPd": "3.595E-7",
+          "seismicPdMag": 3.369,
+          "tau": 0.636,
+          "tauMag": 3.91
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 348.35,
+          "earthquakeSiteId": 2,
+          "latitude": 48.39,
+          "location": "AL2H",
+          "longitude": -123.487,
+          "pWaveArrival": "2021-12-09T21:10:25.010Z",
+          "seismicPd": "2.249E-7",
+          "seismicPdMag": 3.181,
+          "tau": 0.644,
+          "tauMag": 3.945
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 313.962,
+          "earthquakeSiteId": 3,
+          "latitude": 48.835,
+          "location": "BAMF",
+          "longitude": -125.135,
+          "pWaveArrival": "2021-12-09T21:10:19.700Z",
+          "seismicPd": "4.693E-7",
+          "seismicPdMag": 3.512,
+          "tau": 0.704,
+          "tauMag": 4.204
+        },
+        {
+          "associated": true,
+          "distanceToEpi": 350.968,
+          "earthquakeSiteId": 4,
+          "latitude": 48.82,
+          "location": "CLRS",
+          "longitude": -124.131,
+          "pWaveArrival": "2021-12-09T21:10:25.350Z",
+          "sWaveArrival": "2021-12-09T21:10:26.020Z"
+        }
+      ],
+      "tau": 3.945
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "organizationDetections": [
+    {
+      "earthquakeDetailId": 14,
+      "eventId": "20220222.1425001",
+      "eventUrl": "https://www.earthquakescanada.nrcan.gc.ca/recent/2022/20220222.1425/index-en.php",
+      "latitude": 48.8558,
+      "longitude": -129.491,
+      "magnitude": 3.93,
+      "organization": "NRCAN",
+      "originTime": "2022-02-22T14:25:59.000Z"
+    },
+    {
+      "earthquakeDetailId": 16,
+      "eventId": "us6000h04f",
+      "eventUrl": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h04f/executive",
+      "latitude": 49.2327,
+      "longitude": -129.0681,
+      "magnitude": 4.0,
+      "organization": "United States Geological Survey",
+      "originTime": "2022-02-22T14:26:04.533Z"
+    }
+  ],
+  "reprocessedEarthquake": false,
+  "siteDetections": [],
+  "earthquake": [
+    {
+      "earthquakeDetailId": 14,
+      "earthquakeId": 14,
+      "eventId": "20220222.1425001",
+      "latitude": 48.8558,
+      "longitude": -129.491,
+      "magnitude": 3.93,
+      "organizationId": 29,
+      "originTime": "2022-02-22T14:25:59.000Z"
+    },
+    {
+      "earthquakeDetailId": 16,
+      "earthquakeId": 14,
+      "eventId": "us6000h04f",
+      "latitude": 49.2327,
+      "longitude": -129.0681,
+      "magnitude": 4.0,
+      "organizationId": 126,
+      "originTime": "2022-02-22T14:26:04.533Z"
+    }
+  ],
+  "oncDetections": []
+}
