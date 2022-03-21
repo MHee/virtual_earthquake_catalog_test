@@ -1,0 +1,383 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.88,
+          46.28
+        ]
+      },
+      "properties": {
+        "earthquakeId": 1,
+        "latitude": 46.28,
+        "longitude": -126.88,
+        "magnitude": 3.95,
+        "nrcanDetected": false,
+        "oncDetected": true,
+        "originTime": "2021-12-09T21:09:31.375Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.147,
+          50.077
+        ]
+      },
+      "properties": {
+        "earthquakeId": 2,
+        "latitude": 50.077,
+        "longitude": -130.147,
+        "magnitude": 3.75,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2021-11-27T21:43:53.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.204,
+          49.981
+        ]
+      },
+      "properties": {
+        "earthquakeId": 3,
+        "latitude": 49.981,
+        "longitude": -130.204,
+        "magnitude": 4.04,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2021-11-27T12:16:56.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.093,
+          50.083
+        ]
+      },
+      "properties": {
+        "earthquakeId": 4,
+        "latitude": 50.083,
+        "longitude": -130.093,
+        "magnitude": 3.5,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2021-11-27T12:05:05.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.158,
+          50.51
+        ]
+      },
+      "properties": {
+        "earthquakeId": 5,
+        "latitude": 50.51,
+        "longitude": -130.158,
+        "magnitude": 3.63,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2021-11-22T18:05:27.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.722,
+          48.907
+        ]
+      },
+      "properties": {
+        "earthquakeId": 6,
+        "latitude": 48.907,
+        "longitude": -129.722,
+        "magnitude": 3.59,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2021-11-22T01:43:49.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.13,
+          50.99
+        ]
+      },
+      "properties": {
+        "earthquakeId": 7,
+        "latitude": 50.99,
+        "longitude": -125.13,
+        "magnitude": 4.04,
+        "nrcanDetected": false,
+        "oncDetected": true,
+        "originTime": "2021-12-25T11:41:40.985Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.95,
+          50.32
+        ]
+      },
+      "properties": {
+        "earthquakeId": 8,
+        "latitude": 50.32,
+        "longitude": -128.95,
+        "magnitude": 8.75,
+        "nrcanDetected": false,
+        "oncDetected": true,
+        "originTime": "2022-01-14T08:25:44.602Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.39,
+          48.87
+        ]
+      },
+      "properties": {
+        "earthquakeId": 9,
+        "latitude": 48.87,
+        "longitude": -123.39,
+        "magnitude": 7.69,
+        "nrcanDetected": false,
+        "oncDetected": true,
+        "originTime": "2021-12-17T12:13:52.573Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.356,
+          50.016
+        ]
+      },
+      "properties": {
+        "earthquakeId": 10,
+        "latitude": 50.016,
+        "longitude": -128.356,
+        "magnitude": 3.79,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2022-02-12T08:33:39.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.72,
+          48.488
+        ]
+      },
+      "properties": {
+        "earthquakeId": 11,
+        "latitude": 48.488,
+        "longitude": -128.72,
+        "magnitude": 3.55,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2022-02-09T00:10:39.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.579,
+          50.651
+        ]
+      },
+      "properties": {
+        "earthquakeId": 12,
+        "latitude": 50.651,
+        "longitude": -130.579,
+        "magnitude": 3.51,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2022-02-08T15:05:00.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.042,
+          48.073
+        ]
+      },
+      "properties": {
+        "earthquakeId": 13,
+        "latitude": 48.073,
+        "longitude": -129.042,
+        "magnitude": 3.64,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2022-01-30T04:02:15.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.491,
+          48.856
+        ]
+      },
+      "properties": {
+        "earthquakeId": 14,
+        "latitude": 48.856,
+        "longitude": -129.491,
+        "magnitude": 3.93,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2022-02-22T14:25:59.000Z",
+        "usgsDetected": true,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.02,
+          49.89
+        ]
+      },
+      "properties": {
+        "earthquakeId": 15,
+        "latitude": 49.89,
+        "longitude": -127.02,
+        "magnitude": 2.6,
+        "nrcanDetected": false,
+        "oncDetected": true,
+        "originTime": "2022-02-25T18:57:36.819Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.154,
+          50.477
+        ]
+      },
+      "properties": {
+        "earthquakeId": 16,
+        "latitude": 50.477,
+        "longitude": -130.154,
+        "magnitude": 3.83,
+        "nrcanDetected": true,
+        "oncDetected": false,
+        "originTime": "2022-03-16T16:32:29.000Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.52,
+          49.56
+        ]
+      },
+      "properties": {
+        "earthquakeId": 17,
+        "latitude": 49.56,
+        "longitude": -126.52,
+        "magnitude": 4.2,
+        "nrcanDetected": false,
+        "oncDetected": true,
+        "originTime": "2022-03-18T17:31:14.402Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.08,
+          49.02
+        ]
+      },
+      "properties": {
+        "earthquakeId": 18,
+        "latitude": 49.02,
+        "longitude": -128.08,
+        "magnitude": 4.16,
+        "nrcanDetected": false,
+        "oncDetected": true,
+        "originTime": "2022-03-19T12:40:31.005Z",
+        "usgsDetected": false,
+        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=18"
+      }
+    }
+  ]
+}
