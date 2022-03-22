@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b64228e0fa8e452dbb02bdb084547fee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b64228e0fa8e452dbb02bdb084547fee" ></div>
+        
+</body>
+<script>    
+    
+            var map_b64228e0fa8e452dbb02bdb084547fee = L.map(
+                "map_b64228e0fa8e452dbb02bdb084547fee",
+                {
+                    center: [49.5, -126.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6cf0bddb923a4b97a9835449d01f1954 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+            var marker_ee4f85db061141d2a9bf4b4407070624 = L.marker(
+                [46.28, -126.88],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_3c76cd82212c42998c01657720d7852d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c6d106dc23a4e8c8558a1218ec87738 = $(`<div id="html_0c6d106dc23a4e8c8558a1218ec87738" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>1</td>   </tr>    <tr>     <td>latitude</td>     <td>46.28</td>   </tr>    <tr>     <td>longitude</td>     <td>-126.88</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.95</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>False</td>   </tr>    <tr>     <td>oncDetected</td>     <td>True</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-12-09T21:09:31.375Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=1">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=1</a></td>   </tr>  </table></div>`)[0];
+            popup_3c76cd82212c42998c01657720d7852d.setContent(html_0c6d106dc23a4e8c8558a1218ec87738);
+        
+
+        marker_ee4f85db061141d2a9bf4b4407070624.bindPopup(popup_3c76cd82212c42998c01657720d7852d)
+        ;
+
+        
+    
+    
+            var marker_31b923c6dd88493c9a7ab2bb78ff2780 = L.marker(
+                [50.077, -130.147],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_baca0d95abba43738cbf16a936b65036 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd6030a8f80441f08e556b712fa0ebe4 = $(`<div id="html_bd6030a8f80441f08e556b712fa0ebe4" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>2</td>   </tr>    <tr>     <td>latitude</td>     <td>50.077</td>   </tr>    <tr>     <td>longitude</td>     <td>-130.147</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.75</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-11-27T21:43:53.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=2">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=2</a></td>   </tr>  </table></div>`)[0];
+            popup_baca0d95abba43738cbf16a936b65036.setContent(html_bd6030a8f80441f08e556b712fa0ebe4);
+        
+
+        marker_31b923c6dd88493c9a7ab2bb78ff2780.bindPopup(popup_baca0d95abba43738cbf16a936b65036)
+        ;
+
+        
+    
+    
+            var marker_7f7211cefabb4a0099636d65d66db0c7 = L.marker(
+                [49.981, -130.204],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_d9bb21344e5d493fb29f0f7f50be89a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ea33ba96b1f49dea2a70f77388d7812 = $(`<div id="html_5ea33ba96b1f49dea2a70f77388d7812" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>3</td>   </tr>    <tr>     <td>latitude</td>     <td>49.981</td>   </tr>    <tr>     <td>longitude</td>     <td>-130.204</td>   </tr>    <tr>     <td>magnitude</td>     <td>4.04</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-11-27T12:16:56.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=3">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=3</a></td>   </tr>  </table></div>`)[0];
+            popup_d9bb21344e5d493fb29f0f7f50be89a9.setContent(html_5ea33ba96b1f49dea2a70f77388d7812);
+        
+
+        marker_7f7211cefabb4a0099636d65d66db0c7.bindPopup(popup_d9bb21344e5d493fb29f0f7f50be89a9)
+        ;
+
+        
+    
+    
+            var marker_1968c802268e494e8f38ab5fb29ae41d = L.marker(
+                [50.083, -130.093],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_1ebe31e78275452ca973386136a1d0c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9f741bb6a074491825fe0a5330c924a = $(`<div id="html_f9f741bb6a074491825fe0a5330c924a" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>4</td>   </tr>    <tr>     <td>latitude</td>     <td>50.083</td>   </tr>    <tr>     <td>longitude</td>     <td>-130.093</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.5</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-11-27T12:05:05.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=4">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=4</a></td>   </tr>  </table></div>`)[0];
+            popup_1ebe31e78275452ca973386136a1d0c6.setContent(html_f9f741bb6a074491825fe0a5330c924a);
+        
+
+        marker_1968c802268e494e8f38ab5fb29ae41d.bindPopup(popup_1ebe31e78275452ca973386136a1d0c6)
+        ;
+
+        
+    
+    
+            var marker_b353e23da06d4ad197e8e91122400958 = L.marker(
+                [50.51, -130.158],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_fa508b3163824d228c2698b9a6d965ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44cfe5ad62324e44ab75818148649817 = $(`<div id="html_44cfe5ad62324e44ab75818148649817" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>5</td>   </tr>    <tr>     <td>latitude</td>     <td>50.51</td>   </tr>    <tr>     <td>longitude</td>     <td>-130.158</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.63</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-11-22T18:05:27.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=5">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=5</a></td>   </tr>  </table></div>`)[0];
+            popup_fa508b3163824d228c2698b9a6d965ea.setContent(html_44cfe5ad62324e44ab75818148649817);
+        
+
+        marker_b353e23da06d4ad197e8e91122400958.bindPopup(popup_fa508b3163824d228c2698b9a6d965ea)
+        ;
+
+        
+    
+    
+            var marker_42e3d839c07f4d7992e864cf9c5f1410 = L.marker(
+                [48.907, -129.722],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_b683c1e4d28147fe98d3608d5c03bca3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb0082a5a415476db5746f6c4eca5d14 = $(`<div id="html_cb0082a5a415476db5746f6c4eca5d14" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>6</td>   </tr>    <tr>     <td>latitude</td>     <td>48.907</td>   </tr>    <tr>     <td>longitude</td>     <td>-129.722</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.59</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-11-22T01:43:49.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=6">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=6</a></td>   </tr>  </table></div>`)[0];
+            popup_b683c1e4d28147fe98d3608d5c03bca3.setContent(html_cb0082a5a415476db5746f6c4eca5d14);
+        
+
+        marker_42e3d839c07f4d7992e864cf9c5f1410.bindPopup(popup_b683c1e4d28147fe98d3608d5c03bca3)
+        ;
+
+        
+    
+    
+            var marker_a99447504f704fab9cfdb1b199ee4256 = L.marker(
+                [50.99, -125.13],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_91427b5632674725bdf6648f9e5b0b46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1461d25659404338a8d8139308353c97 = $(`<div id="html_1461d25659404338a8d8139308353c97" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>7</td>   </tr>    <tr>     <td>latitude</td>     <td>50.99</td>   </tr>    <tr>     <td>longitude</td>     <td>-125.13</td>   </tr>    <tr>     <td>magnitude</td>     <td>4.04</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>False</td>   </tr>    <tr>     <td>oncDetected</td>     <td>True</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-12-25T11:41:40.985Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=7">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=7</a></td>   </tr>  </table></div>`)[0];
+            popup_91427b5632674725bdf6648f9e5b0b46.setContent(html_1461d25659404338a8d8139308353c97);
+        
+
+        marker_a99447504f704fab9cfdb1b199ee4256.bindPopup(popup_91427b5632674725bdf6648f9e5b0b46)
+        ;
+
+        
+    
+    
+            var marker_cefd106d8c44483b9d78cbbfd1b732b1 = L.marker(
+                [50.32, -128.95],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_8e5c6b94e4aa44fe8e836da098fb5673 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82ca34ae5a054d8397c786c95389d28c = $(`<div id="html_82ca34ae5a054d8397c786c95389d28c" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>8</td>   </tr>    <tr>     <td>latitude</td>     <td>50.32</td>   </tr>    <tr>     <td>longitude</td>     <td>-128.95</td>   </tr>    <tr>     <td>magnitude</td>     <td>8.75</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>False</td>   </tr>    <tr>     <td>oncDetected</td>     <td>True</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-01-14T08:25:44.602Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=8">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=8</a></td>   </tr>  </table></div>`)[0];
+            popup_8e5c6b94e4aa44fe8e836da098fb5673.setContent(html_82ca34ae5a054d8397c786c95389d28c);
+        
+
+        marker_cefd106d8c44483b9d78cbbfd1b732b1.bindPopup(popup_8e5c6b94e4aa44fe8e836da098fb5673)
+        ;
+
+        
+    
+    
+            var marker_b247ebe6559b42ebabb1c6924210d0b0 = L.marker(
+                [48.87, -123.39],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_94f0e25859ec48f9a37851d4e3328a85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8e2f5401fb047ae9da47afc63ce11ca = $(`<div id="html_e8e2f5401fb047ae9da47afc63ce11ca" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>9</td>   </tr>    <tr>     <td>latitude</td>     <td>48.87</td>   </tr>    <tr>     <td>longitude</td>     <td>-123.39</td>   </tr>    <tr>     <td>magnitude</td>     <td>7.69</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>False</td>   </tr>    <tr>     <td>oncDetected</td>     <td>True</td>   </tr>    <tr>     <td>originTime</td>     <td>2021-12-17T12:13:52.573Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=9">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=9</a></td>   </tr>  </table></div>`)[0];
+            popup_94f0e25859ec48f9a37851d4e3328a85.setContent(html_e8e2f5401fb047ae9da47afc63ce11ca);
+        
+
+        marker_b247ebe6559b42ebabb1c6924210d0b0.bindPopup(popup_94f0e25859ec48f9a37851d4e3328a85)
+        ;
+
+        
+    
+    
+            var marker_22c4a1cf20e9472bbd4532942d721ffc = L.marker(
+                [50.016, -128.356],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_41f9f6483f6e4da3991cea6757919a3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_197b6b7ba42f41e9bd1709488e0cccd3 = $(`<div id="html_197b6b7ba42f41e9bd1709488e0cccd3" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>10</td>   </tr>    <tr>     <td>latitude</td>     <td>50.016</td>   </tr>    <tr>     <td>longitude</td>     <td>-128.356</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.79</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-02-12T08:33:39.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=10">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=10</a></td>   </tr>  </table></div>`)[0];
+            popup_41f9f6483f6e4da3991cea6757919a3c.setContent(html_197b6b7ba42f41e9bd1709488e0cccd3);
+        
+
+        marker_22c4a1cf20e9472bbd4532942d721ffc.bindPopup(popup_41f9f6483f6e4da3991cea6757919a3c)
+        ;
+
+        
+    
+    
+            var marker_654dc7c66fb44b498081fcaa09b08d8b = L.marker(
+                [48.488, -128.72],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_c06716a88e25486493ecedf237712088 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8323ce7dfef4bc7aa69bfaf8307f558 = $(`<div id="html_b8323ce7dfef4bc7aa69bfaf8307f558" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>11</td>   </tr>    <tr>     <td>latitude</td>     <td>48.488</td>   </tr>    <tr>     <td>longitude</td>     <td>-128.72</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.55</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-02-09T00:10:39.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=11">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=11</a></td>   </tr>  </table></div>`)[0];
+            popup_c06716a88e25486493ecedf237712088.setContent(html_b8323ce7dfef4bc7aa69bfaf8307f558);
+        
+
+        marker_654dc7c66fb44b498081fcaa09b08d8b.bindPopup(popup_c06716a88e25486493ecedf237712088)
+        ;
+
+        
+    
+    
+            var marker_25feb590e14847b990f539970baeafbe = L.marker(
+                [50.651, -130.579],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_13812ae981f1465280548d46f5335b4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55689db70c0042a88ba67887b2a115ef = $(`<div id="html_55689db70c0042a88ba67887b2a115ef" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>12</td>   </tr>    <tr>     <td>latitude</td>     <td>50.651</td>   </tr>    <tr>     <td>longitude</td>     <td>-130.579</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.51</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-02-08T15:05:00.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=12">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=12</a></td>   </tr>  </table></div>`)[0];
+            popup_13812ae981f1465280548d46f5335b4a.setContent(html_55689db70c0042a88ba67887b2a115ef);
+        
+
+        marker_25feb590e14847b990f539970baeafbe.bindPopup(popup_13812ae981f1465280548d46f5335b4a)
+        ;
+
+        
+    
+    
+            var marker_312288163fc7490aa0d1b2ffe867c26e = L.marker(
+                [48.073, -129.042],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_2b4cc42ade56419a8cad9878d1b9c013 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bfd9a1b7d3b4d0ab11ba9a1a6f4cca3 = $(`<div id="html_1bfd9a1b7d3b4d0ab11ba9a1a6f4cca3" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>13</td>   </tr>    <tr>     <td>latitude</td>     <td>48.073</td>   </tr>    <tr>     <td>longitude</td>     <td>-129.042</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.64</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-01-30T04:02:15.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=13">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=13</a></td>   </tr>  </table></div>`)[0];
+            popup_2b4cc42ade56419a8cad9878d1b9c013.setContent(html_1bfd9a1b7d3b4d0ab11ba9a1a6f4cca3);
+        
+
+        marker_312288163fc7490aa0d1b2ffe867c26e.bindPopup(popup_2b4cc42ade56419a8cad9878d1b9c013)
+        ;
+
+        
+    
+    
+            var marker_fb7c33798aca497ca11860b89f543205 = L.marker(
+                [48.856, -129.491],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_7e502139512a465da5b95b2ca4963cdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d77eec9f9464faf8151f6e6e91dee21 = $(`<div id="html_3d77eec9f9464faf8151f6e6e91dee21" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>14</td>   </tr>    <tr>     <td>latitude</td>     <td>48.856</td>   </tr>    <tr>     <td>longitude</td>     <td>-129.491</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.93</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-02-22T14:25:59.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>True</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=14">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=14</a></td>   </tr>  </table></div>`)[0];
+            popup_7e502139512a465da5b95b2ca4963cdd.setContent(html_3d77eec9f9464faf8151f6e6e91dee21);
+        
+
+        marker_fb7c33798aca497ca11860b89f543205.bindPopup(popup_7e502139512a465da5b95b2ca4963cdd)
+        ;
+
+        
+    
+    
+            var marker_38073977362d45aa934f559150e1ef7e = L.marker(
+                [49.89, -127.02],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_330d6936d129436b8c2b3d154a6d9cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bff1eff7bc94441fa9f4e338b8f05406 = $(`<div id="html_bff1eff7bc94441fa9f4e338b8f05406" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>15</td>   </tr>    <tr>     <td>latitude</td>     <td>49.89</td>   </tr>    <tr>     <td>longitude</td>     <td>-127.02</td>   </tr>    <tr>     <td>magnitude</td>     <td>2.6</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>False</td>   </tr>    <tr>     <td>oncDetected</td>     <td>True</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-02-25T18:57:36.819Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=15">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=15</a></td>   </tr>  </table></div>`)[0];
+            popup_330d6936d129436b8c2b3d154a6d9cf0.setContent(html_bff1eff7bc94441fa9f4e338b8f05406);
+        
+
+        marker_38073977362d45aa934f559150e1ef7e.bindPopup(popup_330d6936d129436b8c2b3d154a6d9cf0)
+        ;
+
+        
+    
+    
+            var marker_3eb8e848a7af42b9b17119335e28cada = L.marker(
+                [50.477, -130.154],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_83ae56bf0c1c4e0cb4a35fa6c5fcc535 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_022d6764ec3c4c499839783120de3bcd = $(`<div id="html_022d6764ec3c4c499839783120de3bcd" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>16</td>   </tr>    <tr>     <td>latitude</td>     <td>50.477</td>   </tr>    <tr>     <td>longitude</td>     <td>-130.154</td>   </tr>    <tr>     <td>magnitude</td>     <td>3.83</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>True</td>   </tr>    <tr>     <td>oncDetected</td>     <td>False</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-03-16T16:32:29.000Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=16">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=16</a></td>   </tr>  </table></div>`)[0];
+            popup_83ae56bf0c1c4e0cb4a35fa6c5fcc535.setContent(html_022d6764ec3c4c499839783120de3bcd);
+        
+
+        marker_3eb8e848a7af42b9b17119335e28cada.bindPopup(popup_83ae56bf0c1c4e0cb4a35fa6c5fcc535)
+        ;
+
+        
+    
+    
+            var marker_7045734232184e5b835ab21138c7bd04 = L.marker(
+                [49.56, -126.52],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_8f9a8b99a127493a93c597f4a0da21dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5941f1204b847a1b97efcd327c8ca12 = $(`<div id="html_d5941f1204b847a1b97efcd327c8ca12" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>17</td>   </tr>    <tr>     <td>latitude</td>     <td>49.56</td>   </tr>    <tr>     <td>longitude</td>     <td>-126.52</td>   </tr>    <tr>     <td>magnitude</td>     <td>4.2</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>False</td>   </tr>    <tr>     <td>oncDetected</td>     <td>True</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-03-18T17:31:14.402Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=17">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=17</a></td>   </tr>  </table></div>`)[0];
+            popup_8f9a8b99a127493a93c597f4a0da21dd.setContent(html_d5941f1204b847a1b97efcd327c8ca12);
+        
+
+        marker_7045734232184e5b835ab21138c7bd04.bindPopup(popup_8f9a8b99a127493a93c597f4a0da21dd)
+        ;
+
+        
+    
+    
+            var marker_d4d197818ad84e84adf5f285b0272f6f = L.marker(
+                [49.02, -128.08],
+                {}
+            ).addTo(map_b64228e0fa8e452dbb02bdb084547fee);
+        
+    
+        var popup_d87cc343385c481f8a11744798e5e255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dadccdbcf1f844d383320fad52c76c07 = $(`<div id="html_dadccdbcf1f844d383320fad52c76c07" style="width: 100.0%; height: 100.0%;"> <table style="width:100%">     <tr>     <td>earthquakeId</td>     <td>18</td>   </tr>    <tr>     <td>latitude</td>     <td>49.02</td>   </tr>    <tr>     <td>longitude</td>     <td>-128.08</td>   </tr>    <tr>     <td>magnitude</td>     <td>4.16</td>   </tr>    <tr>     <td>nrcanDetected</td>     <td>False</td>   </tr>    <tr>     <td>oncDetected</td>     <td>True</td>   </tr>    <tr>     <td>originTime</td>     <td>2022-03-19T12:40:31.005Z</td>   </tr>    <tr>     <td>usgsDetected</td>     <td>False</td>   </tr>    <tr>     <td>url</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json</a></td>   </tr>    <tr>     <td>gh_url</td>     <td><a href="https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json</a></td>   </tr>    <tr>     <td>url_orig</td>     <td><a href="https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=18">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=18</a></td>   </tr>  </table></div>`)[0];
+            popup_d87cc343385c481f8a11744798e5e255.setContent(html_dadccdbcf1f844d383320fad52c76c07);
+        
+
+        marker_d4d197818ad84e84adf5f285b0272f6f.bindPopup(popup_d87cc343385c481f8a11744798e5e255)
+        ;
+
+        
+    
+</script>
