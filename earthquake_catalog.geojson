@@ -19,9 +19,9 @@
         "oncDetected": true,
         "originTime": "2021-12-09T21:09:31.375Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=1"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_1.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=1\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=1</a>"
       }
     },
     {
@@ -42,9 +42,9 @@
         "oncDetected": false,
         "originTime": "2021-11-27T21:43:53.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=2"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_2.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=2\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=2</a>"
       }
     },
     {
@@ -65,9 +65,9 @@
         "oncDetected": false,
         "originTime": "2021-11-27T12:16:56.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=3"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_3.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=3\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=3</a>"
       }
     },
     {
@@ -88,9 +88,9 @@
         "oncDetected": false,
         "originTime": "2021-11-27T12:05:05.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=4"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_4.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=4\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=4</a>"
       }
     },
     {
@@ -111,9 +111,9 @@
         "oncDetected": false,
         "originTime": "2021-11-22T18:05:27.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=5"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_5.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=5\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=5</a>"
       }
     },
     {
@@ -134,9 +134,9 @@
         "oncDetected": false,
         "originTime": "2021-11-22T01:43:49.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=6"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_6.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=6\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=6</a>"
       }
     },
     {
@@ -157,9 +157,9 @@
         "oncDetected": true,
         "originTime": "2021-12-25T11:41:40.985Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=7"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_7.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=7\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=7</a>"
       }
     },
     {
@@ -180,9 +180,9 @@
         "oncDetected": true,
         "originTime": "2022-01-14T08:25:44.602Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=8"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_8.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=8\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=8</a>"
       }
     },
     {
@@ -203,9 +203,9 @@
         "oncDetected": true,
         "originTime": "2021-12-17T12:13:52.573Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=9"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_9.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=9\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=9</a>"
       }
     },
     {
@@ -226,9 +226,9 @@
         "oncDetected": false,
         "originTime": "2022-02-12T08:33:39.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=10"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_10.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=10\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=10</a>"
       }
     },
     {
@@ -249,9 +249,9 @@
         "oncDetected": false,
         "originTime": "2022-02-09T00:10:39.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=11"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_11.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=11\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=11</a>"
       }
     },
     {
@@ -272,9 +272,9 @@
         "oncDetected": false,
         "originTime": "2022-02-08T15:05:00.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=12"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_12.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=12\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=12</a>"
       }
     },
     {
@@ -295,9 +295,9 @@
         "oncDetected": false,
         "originTime": "2022-01-30T04:02:15.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=13"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_13.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=13\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=13</a>"
       }
     },
     {
@@ -318,9 +318,9 @@
         "oncDetected": false,
         "originTime": "2022-02-22T14:25:59.000Z",
         "usgsDetected": true,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=14"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_14.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=14\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=14</a>"
       }
     },
     {
@@ -341,9 +341,9 @@
         "oncDetected": true,
         "originTime": "2022-02-25T18:57:36.819Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=15"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_15.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=15\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=15</a>"
       }
     },
     {
@@ -364,9 +364,9 @@
         "oncDetected": false,
         "originTime": "2022-03-16T16:32:29.000Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=16"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_16.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=16\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=16</a>"
       }
     },
     {
@@ -387,9 +387,9 @@
         "oncDetected": true,
         "originTime": "2022-03-18T17:31:14.402Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=17"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_17.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=17\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=17</a>"
       }
     },
     {
@@ -410,9 +410,9 @@
         "oncDetected": true,
         "originTime": "2022-03-19T12:40:31.005Z",
         "usgsDetected": false,
-        "url": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json",
-        "gh_url": "https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json",
-        "url_orig": "https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=18"
+        "url": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeURL=https%3A//raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json</a>",
+        "gh_url": "<a href=\"https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json\">https://raw.githubusercontent.com/MHee/virtual_earthquake_catalog_test/main/events/eq_18.json</a>",
+        "url_orig": "<a href=\"https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=18\">https://data.oceannetworks.ca/EarthquakeDetail?earthquakeId=18</a>"
       }
     }
   ]
